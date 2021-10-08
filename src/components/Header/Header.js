@@ -28,10 +28,20 @@ const Header = () => {
 
 const MainHeader = styled.div`
   padding: 0 32px;
+  padding-top: 21px;
+  padding-bottom: 23px;
   border-bottom: 1px solid ${COLORS.gray[300]};
-`;
+  display: flex;
+  align-items: baseline;
+  `;
 
-const Nav = styled.nav``;
+const Nav = styled.nav`
+  display: flex;
+  margin-left: 200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 48px;
+`;
 
 const NavLink = styled.a`
   font-size: 1.125rem;
